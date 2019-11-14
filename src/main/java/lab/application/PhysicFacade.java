@@ -18,4 +18,9 @@ public class PhysicFacade {
     public Double getRectPos(double t, double a, double v0, double x0){
     return this.physicService.getRectPos(t,a,v0,x0);
     }
+
+    public Double getEc(double m, double v){
+        return this.physicService.getEc(m,v);
+
+    }
 }

@@ -28,4 +28,10 @@ private final PhysicFacade physicFacade;
         return this.physicFacade.getRectPos(t,a,v0,x0);
     }
 
+    public Double getEc(@RequestParam(defaultValue = "0") double m,
+                        @RequestParam(defaultValue = "0") double v){
+        return this.physicFacade.getEc(m,v);
+
+    }
+
 }
